@@ -21,7 +21,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-
+/* Efecto hover para las imágenes */
 .item img:hover {
     transform: scale(1.05);
 }
@@ -31,7 +31,7 @@
     font-size: 1rem;
     color: #333;
 }
-
+/* Estilos generales */
 body {
     height: 100vh;
     font-family: "Montserrat", sans-serif;
@@ -47,7 +47,7 @@ body {
     background-size: 400% 400%;
     animation: animarFondo 10s ease infinite;
 }
-
+/* Título principal */
 @keyframes animarFondo {
     0% {
         background-position: 0% 50%;
@@ -61,7 +61,7 @@ body {
         background-position: 0% 50%;
     }
 }
-
+/* Título principal */
 @media (max-width: 455px) {
     body {
         padding: 1rem;
@@ -73,7 +73,7 @@ body {
         line-height: 2.5rem;
         color: white;
     }
-
+/* Ajustes para la galería en pantallas pequeñas */
     .galeria {
         flex-direction: column;
         padding: 1rem 0;
