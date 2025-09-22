@@ -1,10 +1,12 @@
+
 body {
+  
   font-family: Arial, sans-serif;
   margin: 0;
   background: rgb(226, 241, 231);
   color: #333;
 }
-
+/* Contenedor principal */
 .resume-container {
   display: flex;
   max-width: 1000px;
@@ -20,13 +22,13 @@ body {
   text-align: center;
 
 }
-
+/* Foto de perfil */
 .profile-photo {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
-
+/* Cita o resumen */
 .quote {
   background: rgb(36, 54, 66);
   color: white;
@@ -34,7 +36,7 @@ body {
   margin: 1rem 0;
   border-radius: 10px;
 }
-
+/* Sección de habilidades */
 .skills {
   color: white;
 }
@@ -54,7 +56,7 @@ body {
 }
 
 
-
+/* Contenido principal */
 .main-content {
 
   font-family: "Montserrat", sans-serif;
@@ -93,7 +95,11 @@ header h1 span {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.5rem;
 }
-
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+/* Estilos para las secciones de experiencia y educación */
 .boton-retroceso {
   background-color: #ffffff;
   border: none;
@@ -110,11 +116,7 @@ header h1 span {
   color: white;
 }
 
-/*.italianno-regular {
-  font-family: "Italianno", cursive;
-  font-weight: 400;
-  font-style: normal;*/
-
+/* Estilos responsivos */
 @media (max-width: 600px) {
   .resume-container {
     flex-direction: column;
@@ -139,7 +141,7 @@ header h1 span {
   .contact p {
     font-size: 0.95rem;
   }
-
+/* Foto de perfil */
   .profile-photo {
     max-width: 200px;
     margin: 0 auto 1rem;
